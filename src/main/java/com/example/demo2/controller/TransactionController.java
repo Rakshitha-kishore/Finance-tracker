@@ -32,8 +32,8 @@ public class TransactionController {
 	@GetMapping
 	public List<Transaction> getAllTransaction(){
 		return repository.findAll();
-	}
-	//This is my comment 6
+	7
+	//This is my comment 8
 	@DeleteMapping("/{id}")
 	public void deleteTransaction(@PathVariable Long id) {
 		repository.deleteById(id);
